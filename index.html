@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mobile.css">
+  </head>
+  <body>
+    <!--header используется для обозначения шапки сайта,  
+        где обычно размещается логотип, название сайта и навигационное меню.-->
+    <header >
+        
+       
+        <div class="logo" >
+            <div class="img-logo">
+                <img src="img/logo.svg" alt=""  />
+            </div>
+        <div class="navigation">
+            <!--<nav>:Обозначает навигационное меню, которое помогает пользователям 
+         перемещаться по сайту.-->
+            <nav>
+                <a href="" style="color: aliceblue; font-size: 14px;  line-height: 19px; width: 88px; height: 19px;  " >О компании</a>
+                <a href="" style="color: aliceblue; font-size: 14px; line-height: 19px; width: 88px; height: 19px; ">Портфолио</a>
+                <a href="" style="color: aliceblue; font-size: 14px; line-height: 19px; width: 88px; height: 19px; ">Каталог</a>
+                <a href="" style="color: aliceblue; font-size: 14px; line-height: 19px; width: 88px; height: 19px; ">Сервис</a>
+                <a href="" style="color: aliceblue; font-size: 14px; line-height: 19px; width: 88px; height: 19px; ">Контакты</a>
+            </nav>
+        </div>
+        
+    </div>
+    
+    <!--section используется для группировки тематически связанного контента. 
+      В данном случае, каждая секция соответствует определенному разделу сайта-->
+    <section class="main-header-information">
+        <!--Используется для группировки медиа-контента (изображений) вместе с его подписью (<figcaption>). -->
+        <figcaption class="main-header-information-h1" ><h1>Светотехническое оборудование <br>
+            в Петербурге</h1></figcaption><br>
+            <p class="main-header-information-p">Продажа, аренда светотехнического оборудования.<br>
+                Оформление официальных мероприятий под ключ.</p>
+                <button class="main-header-information-button" onclick="window.dialog.showModal()">Перейти</button>
+                <dialog id="dialog">
+                    <h2>ПЕРЕХОД ПОКА НЕДОСТУПЕН</h2>
+                    <p>Мы занимаемся прокатом светового и сценического оборудования
+                        ведущих мировых производителей,
+                        таких как Robe, SGM, StudioDue, ChainMaster, Milos,
+                        Universal Effects, ArtLighting, MobilTech, Lampo,
+                        Martin, Spotlight, Compulite, Eurolite и др.
+                        </p>
+                    <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+                </dialog>
+       </section>
+   
+   </header>   
+
+   <main>
+    <section class="information-block-1">
+        <figcaption>
+                    <img src="./img/decor-heading.svg" alt="" class="head-block">
+            <p>
+                
+                Наши проекты
+            </p>
+        </figcaption>
+        <!--Обозначает подпись к медиа-контенту внутри <figure>. -->
+        <figure style="display: flex;">
+            <div class="back-img"  >
+                <img src="img/slide__desc.svg" alt="" >
+            </div>
+            <div class="back-img" >
+                <img src="img/slide__desc.svg" alt="">
+            </div>
+          
+        </figure>
+    </section>
+    <section class="information-block-2">
+        <figcaption>
+        <img src="./img/decor-heading.svg" alt="" class="head-block">
+            <p>
+                Каталог продукции
+            </p>
+        </figcaption>
+        <nav>
+            <a href="">ROBE</a>
+            <a href="">COMPULATE</a>
+        </nav>
+        <figure style="display: flex;">
+            <div class="back-img" style=" width: 350px; height: 300px; margin-left: 20px;">
+                <img src="img/catelog__item.svg" alt="">
+            </div>
+            <div class="back-img" style=" width: 350px; height: 300px;  margin-left: 20px;">
+                <img src="img/catelog__item (1).svg" alt="">
+            </div>
+            <div class="back-img" style=" width: 350px; height: 300px;  margin-left: 20px;">
+                <img src="img/catelog__item (2).svg" alt="">
+            </div>
+        </figure>
+    </section>
+    <section class="information-block-3">
+        <figcaption>
+        <img src="./img/decor-heading.svg" alt="" class="head-block">
+            <p>
+                Аренда оборудования
+            </p>
+        </figcaption>
+        <figure style="display: flex;">
+            <p>Мы занимаемся прокатом светового и сценического оборудования <br>
+                ведущих мировых производителей, <br>
+                таких как Robe, SGM, StudioDue, ChainMaster, Milos, <br>
+                Universal Effects, ArtLighting, MobilTech, Lampo,<br>
+                 Martin, Spotlight, Compulite, Eurolite и др.</p>
+            <div class="back-img" style=" width: 540px; height: 400px; margin-left: 20px;">
+                <img src="img/rent__item.svg" alt="">
+            </div>
+          
+        </figure>
+    </section>
+    <section class="information-block-4">
+     
+        <figcaption>
+        <img src="./img/decor-heading.svg" alt="" class="head-block">
+            <p>
+                Новости
+            </p>
+        </figcaption>
+       
+        <figure style="display: flex;">
+            <div class="back-img" style="width: 540px; height: 300px; margin-left: 20px;">
+                <img src="img/news__main-item.svg" alt="">
+            </div>
+            <div class="back-img" style=" width: 350px; height: 300px;  margin-left: 40px;">
+                <img src="img/news__item (1).svg" alt="">
+            </div>
+        </figure>
+    </section>
+   </main>
+   <!--Обозначает подвал сайта, где обычно размещается информация об авторских правах, контактная информация и ссылки на социальные сети.-->
+    <footer style=" background: #005BC1; color: aliceblue;">
+        <section>
+        <div class="footer-block-1">
+            <p>(812) 710-80-25</p>
+            <p>191180, Санкт-Петербург, Набережная реки Фонтанки, 90, корпус 1</p>
+            <p>mail@translight.ru</p>
+        </div>
+           
+            <hr>
+            <nav>
+             <a href="">О компании</a>
+            <a href="">Новости</a>
+            <a href="">Каталог</a>
+            <a href="">Аренда</a>
+            <a href="">Наши проекты</a>
+            <a href="">Сервисное обслуживание</a>
+            </nav>
+           
+            <hr>
+            <div class="footer-block-2">
+            <p>© 2019 ЗАО «Транслайт». Все права защищены.</p>
+            <p>Разработка и дизайн - D-e-n.ru</p>
+            </div>
+            
+        </section>
+    </footer>
+  </body>
+</html>
